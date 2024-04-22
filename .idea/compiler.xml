@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MicroservicesProject" />
+        <module name="ServiceRegistry" />
+        <module name="RestaurntService" />
+        <module name="ratingsService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MicroservicesProject" target="17" />
+      <module name="ratingsService" target="17" />
+      <module name="RestaurntService" target="17" />
+      <module name="ServiceRegistry" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MicroservicesProject" options="-parameters" />
+      <module name="RestaurntService" options="-parameters" />
+      <module name="ServiceRegistry" options="-parameters" />
+      <module name="ratingsService" options="-parameters" />
+    </option>
+  </component>
+</project>
